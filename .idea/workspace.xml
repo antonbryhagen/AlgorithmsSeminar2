@@ -5,13 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9011392-b23d-4d79-8720-84785d668fdf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/invalid1a.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/invalid1b.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/valid1a.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/valid1b.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task2/OneQueueStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task2/OneStackQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task2/TwoQueuesStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task2/TwoStacksQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task2/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task3/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task3/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task3/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task4/MyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task4/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task4/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task1/Task1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/invalid1a.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/task1/invalid1a.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/invalid1b.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/task1/invalid1b.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/valid1a.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/task1/valid1a.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/valid1b.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/task1/valid1b.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,9 +52,18 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/SkolaHKR/AlgortihmsSeminar2"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/SkolaHKR/AlgortihmsSeminar2/src/task4"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SkolaHKR\AlgortihmsSeminar2\src\task4" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\SkolaHKR\AlgortihmsSeminar2\src\task1" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
