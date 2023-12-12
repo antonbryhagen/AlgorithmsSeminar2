@@ -73,7 +73,7 @@ public class Task1 {
                         }
                     }else{
                         //in a comment (/**/)
-                        if(stack.peek() == "*") {
+                        if(stack.peek().equals("*")) {
                             if (line.charAt(i) == '/') {//found closing comment symbol
                                 stack.pop(); //remove star
                                 stack.pop(); //remove start of comment symbol
@@ -88,7 +88,7 @@ public class Task1 {
                         }
                     }
                 }
-                if(!stack.isEmpty() && stack.peek() == "//"){
+                if(!stack.isEmpty() && stack.peek().equals("//")){
                     //new line, remove line comment
                     stack.pop();
                     inComment = false;
@@ -164,7 +164,7 @@ public class Task1 {
                     }
                 }
 
-                if(!stack.isEmpty() && stack.peek() == "//"){
+                if(!stack.isEmpty() && stack.peek().equals("//")){
                     //new line, remove line comment
                     stack.pop();
                     inComment = false;

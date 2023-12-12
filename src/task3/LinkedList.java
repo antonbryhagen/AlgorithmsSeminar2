@@ -63,10 +63,10 @@ public class LinkedList {
     public void printList(){
         Node temp = head;
         if(temp != null){
-            System.out.println("Name: "+temp.name+", Adress: "+temp.address);
+            System.out.println("Name: "+temp.name+", Address: "+temp.address);
             while(temp.next != null){
                 temp = temp.next;
-                System.out.println("Name: "+temp.name+", Adress: "+temp.address);
+                System.out.println("Name: "+temp.name+", Address: "+temp.address);
             }
         }
     }

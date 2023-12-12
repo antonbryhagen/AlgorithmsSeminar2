@@ -20,7 +20,6 @@ public class main {
         twoStackQueue.enqueue(5);
         System.out.println(twoStackQueue.dequeue());
         System.out.println(twoStackQueue.dequeue());
-
         System.out.println(twoStackQueue.isEmpty());
 
         /***********TASK 2b**************/
