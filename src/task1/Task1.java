@@ -51,9 +51,9 @@ public class Task1 {
                                 // no comment started, remove the single slash
                                 stack.pop();
                             }
-                        }else if(line.charAt(i) == '{' || line.charAt(i) == '[' || line.charAt(i) == '/'){
+                        }if((line.charAt(i) == '{' || line.charAt(i) == '[' || line.charAt(i) == '/') && !inComment){
                             stack.push(""+line.charAt(i));  //push opening symbol to stack
-                        } else if(line.charAt(i) == '}' || line.charAt(i) == ']' ){    //closing symbol ] or }
+                        } else if((line.charAt(i) == '}' || line.charAt(i) == ']' ) && !inComment){    //closing symbol ] or }
                             if(stack.isEmpty()){
                                 System.out.println(line.charAt(i)+"Error: found closing symbol '"+line.charAt(i)+"' at line "+currentLine+" but there is no opening symbols");
                                 compiled = false;
@@ -138,9 +138,9 @@ public class Task1 {
                                 // no comment started, remove the single slash
                                 stack.pop();
                             }
-                        }else if(line.charAt(i) == '{' || line.charAt(i) == '[' || line.charAt(i) == '(' || line.charAt(i) == '/'){
+                        }if((line.charAt(i) == '{' || line.charAt(i) == '[' || line.charAt(i) == '(' || line.charAt(i) == '/') && !inComment){
                             stack.push(""+line.charAt(i));  //push opening symbol to stack
-                        } else if(line.charAt(i) == '}' || line.charAt(i) == ']' || line.charAt(i) == ')'){    //closing symbol ], } or )
+                        } else if((line.charAt(i) == '}' || line.charAt(i) == ']' || line.charAt(i) == ')') && !inComment){    //closing symbol ], } or )
 
                             if(stack.isEmpty()){
                                 System.out.println(line.charAt(i)+"Error: found closing symbol '"+line.charAt(i)+"' at line "+currentLine+" but there is no opening symbols");
